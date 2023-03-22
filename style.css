@@ -93,3 +93,27 @@ table{
 tr,td{
     border: 1px solid;
 }
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--texto-negro);
+}
+
+footer .note{
+font-size: 1.7rem;
+font-style: italic;
+font-weight: 900;
+}
+.telfax{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.telfax span{
+    font-weight: 700;
+}
+.direccion p{
+    font-weight: 700;
+}
